@@ -1,13 +1,5 @@
-#problem 24: minimum number of insertion to make a string "a" into a palindrom
 
-# x= agbcba , output: 1
-
-# here if we get another 'g' add to the existing string , then we can get a palindrom  !
-# so ans is 1
-
-# we get a same problem in problem 18 !
-
-# statment of problem 18: minimum number of deletion of a string to make it palindrom ! 
+# problem 22: minimum number of deletion of a string to make it palindrom ! 
 
 #  x= agbcba , output: 1
 
