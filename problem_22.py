@@ -18,7 +18,7 @@ def sol(arr, tar): #lcs
 
     i,j=n,m
     narr=[]
-    while i>0 and j> 0: # print lcs part
+    while i * j> 0: # print lcs part
         if arr[i-1] == tar[j-1]:
             narr.append(arr[i-1])
             i-=1
