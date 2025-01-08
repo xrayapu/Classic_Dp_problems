@@ -47,6 +47,7 @@ def sol(arr,tar):
             m-=1
         else:
             n-=1 # just skip the array not the target ! 
+    narr=narr[::-1]
 
     narr=''.join(narr)
     #print(narr)
